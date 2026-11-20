@@ -1,0 +1,225 @@
+IT SUPPORT KNOWLEDGE BASE
+
+1. COMMON ISSUES AND SOLUTIONS
+
+1.1 Network Connectivity Issues
+Problem: Unable to connect to network
+Solutions:
+- Check if WiFi/Ethernet cable is properly connected
+- Restart router and modem (wait 30 seconds between restarts)
+- Check IP configuration: ipconfig (Windows) or ifconfig (Mac/Linux)
+- Flush DNS: ipconfig /flushdns (Windows) or sudo dscacheutil -flushcache (Mac)
+- Run network diagnostics: ping 8.8.8.8
+
+1.2 Internet Speed Issues
+Problem: Slow internet connection
+Solutions:
+- Check bandwidth usage on network
+- Move closer to router or use wired connection
+- Restart router
+- Check for background downloads/uploads
+- Run speed test: speedtest.net
+- Contact ISP if issues persist
+
+1.3 WiFi Connection Issues
+Problem: Can't connect to WiFi
+Solutions:
+- Forget network and reconnect
+- Check if WiFi is enabled
+- Verify password is correct
+- Restart WiFi router
+- Update network drivers
+- Check if MAC filtering is enabled on router
+
+2. EMAIL CONFIGURATION
+
+2.1 Outlook Setup
+Server: outlook.office365.com
+Port: 587 (IMAP), 993 (IMAP SSL)
+Authentication: Your Microsoft 365 email and password
+
+2.2 Gmail Setup
+IMAP Server: imap.gmail.com
+Port: 993
+SMTP Server: smtp.gmail.com
+Port: 587
+Enable less secure apps: https://myaccount.google.com/less-secure-apps
+
+2.3 Email Sync Issues
+Solutions:
+- Clear email cache
+- Check server settings
+- Verify password
+- Disable antivirus temporarily
+- Reset IMAP folders
+
+3. PRINTER ISSUES
+
+3.1 Printer Not Found
+Solutions:
+- Check if printer is powered on
+- Verify USB/Network connection
+- Restart printer and computer
+- Check if printer drivers are installed
+- Clear print queue: lpadmin -x printer_name (Mac/Linux)
+
+3.2 Print Quality Issues
+Solutions:
+- Clean printer heads
+- Check ink/toner levels
+- Verify paper quality
+- Adjust print settings
+- Update printer drivers
+
+4. PASSWORD MANAGEMENT
+
+4.1 Password Reset
+Steps:
+1. Go to account recovery page
+2. Verify identity through email or phone
+3. Create new secure password (min 8 chars, mixed case, numbers, symbols)
+4. Update saved passwords in password manager
+
+4.2 Password Requirements
+- Minimum 8 characters
+- Include uppercase letters (A-Z)
+- Include lowercase letters (a-z)
+- Include numbers (0-9)
+- Include special characters (!@#$%^&*)
+- Do not reuse last 5 passwords
+- Change every 90 days
+
+5. ANTIVIRUS AND SECURITY
+
+5.1 Virus Scan
+Steps:
+1. Open Windows Defender or antivirus software
+2. Run full system scan
+3. Quarantine any threats found
+4. Restart computer if required
+
+5.2 Malware Removal
+Tools:
+- Windows Defender
+- Malwarebytes
+- Norton Antivirus
+- McAfee
+
+Steps:
+1. Boot in Safe Mode
+2. Run full antivirus scan
+3. Use dedicated malware removal tools
+4. Clear browser cache and cookies
+
+6. DISK SPACE MANAGEMENT
+
+6.1 Free Up Disk Space
+Steps:
+1. Delete temporary files: %temp% folder
+2. Clear browser cache
+3. Uninstall unused programs
+4. Use Disk Cleanup utility
+5. Consider external storage
+6. Compress old files
+
+6.2 Disk Usage Monitoring
+Commands:
+- Windows: diskpart, cleanmgr
+- Mac: du -sh * (check directory sizes)
+- Linux: df -h (check disk usage)
+
+7. OPERATING SYSTEM UPDATES
+
+7.1 Windows Update
+Steps:
+1. Settings > Update & Security
+2. Check for updates
+3. Install updates
+4. Restart if required
+
+7.2 Mac Update
+Steps:
+1. Apple menu > System Preferences
+2. Software Update
+3. Install updates
+4. Restart if required
+
+7.3 Update Troubleshooting
+Solutions:
+- Free up disk space
+- Ensure stable internet connection
+- Disable antivirus temporarily
+- Update drivers
+- Check Windows Update service is running
+
+8. SOFTWARE INSTALLATION
+
+8.1 Installation Requirements
+- Administrative privileges
+- Sufficient disk space (check software requirements)
+- Compatible operating system
+- Required dependencies
+
+8.2 Troubleshooting Installation
+Solutions:
+- Run installer as administrator
+- Disable antivirus temporarily
+- Check for conflicting software
+- Verify system requirements
+- Clear temp files before installing
+
+9. BACKUP AND RECOVERY
+
+9.1 Regular Backup
+Frequency: At least once per week
+Methods:
+- Cloud storage (OneDrive, Google Drive, Dropbox)
+- External hard drive
+- NAS (Network Attached Storage)
+- Backup software (Acronis, Veeam)
+
+9.2 System Recovery
+Options:
+- System Restore Point
+- Reset PC (Windows)
+- Reinstall OS
+- Professional data recovery service
+
+10. REMOTE ACCESS
+
+10.1 Remote Desktop Protocol (RDP)
+Port: 3389
+Enable RDP:
+- Control Panel > System > Remote Settings
+- Check "Allow remote connections to this computer"
+
+10.2 VPN Setup
+Steps:
+1. Install VPN client
+2. Import VPN configuration
+3. Enter credentials
+4. Connect to VPN
+5. Verify connection
+
+11. TICKETING SYSTEM
+
+11.1 Create Support Ticket
+Information needed:
+- Issue description
+- Steps to reproduce
+- Error messages
+- System specifications
+- Attached screenshots/logs
+
+11.2 Ticket Priority Levels
+- Critical: System down, security breach
+- High: Major functionality affected
+- Medium: Minor functionality affected
+- Low: Cosmetic issues, questions
+
+11.3 Ticket Status
+- Open: Newly created
+- In Progress: Being worked on
+- On Hold: Waiting for user information
+- Resolved: Issue fixed
+- Closed: Ticket completed and confirmed
